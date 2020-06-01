@@ -3,7 +3,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin'); // Permite trabajar en
 
 //Modulo que vamos a exportar donde viene cada configuracion de lo que va a suceder
 
-module.export = {
+module.exports = {
   entry: './src/index.js', //punto de entrada, aqui vivira todo el codigo inicial
   output: { //Donde se va a poner todo este poryecto compilado listo para enviar a produccion. 
     path: path.resolve(__dirname, 'dist'), //Se encargara identificar donde se encuentre la carpeta y ahi poner otra carpeta 
@@ -31,6 +31,6 @@ module.export = {
         template: './public/index.html', // template base HTML
         filename: './index.html',
       }
-    ])
+    ]),
   ]
 }
