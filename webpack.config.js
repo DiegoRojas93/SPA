@@ -25,12 +25,12 @@ module.exports = {
   },
 
   plugins: [
-    new HtmlWebpackPlugin([ // se establece el template principal
+    new HtmlWebpackPlugin( // se establece el template principal
       {
         inject: true, //¿inyectaremos a un archivo html un valor?
         template: './public/index.html', // template base HTML
         filename: './index.html',
       }
-    ]),
+    ),
   ]
 }
