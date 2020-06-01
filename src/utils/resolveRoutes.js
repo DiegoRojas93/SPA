@@ -6,4 +6,4 @@ const resolveRoutes = (route) => {
   return `/${route}`;
 };
 
-exxport default resolveRoutes;
+export default resolveRoutes;
